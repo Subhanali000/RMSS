@@ -1,0 +1,25 @@
+/* App.css */
+body {
+  background-color: #f4f7f6;
+  font-family: 'Arial', sans-serif;
+}
+.container {
+  background-color: #f4f7f6;
+  font-family: 'Arial', sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+}
+.Mantine-Card-root {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.Mantine-Card-root:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+}
+.container {
+  min-height: 100vh;
+  padding: 20px;
+}
